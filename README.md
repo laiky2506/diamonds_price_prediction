@@ -42,5 +42,5 @@ In this step, the train and test data prepared using train_test_split method fro
 The model trained by using batch size of 32 with the epoch of 128. EarlyStopping with a patience of 5 added to the training, which cause the training stopped at epoch number 44/128.
 
 ## Result
-####The actual value of test data vs prediction value:
+#### The actual value of test data vs prediction value:
 ![Actual vs Prediction!](/actual_vs_prediction.png "Actual vs Prediction")
