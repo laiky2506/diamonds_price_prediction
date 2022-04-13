@@ -19,7 +19,7 @@ Numpy and pandas imported in order to extract data from the csv file. After impo
 ## STEP 2: Split the data into features and label
 The 3 columns which contain data with data type of string. These 3 column were encoded with one-hot encoding using pandas.get_dummies method. After one-hot encoding, the total number of column of the dataframe increased from 11 to 28.
 
-Column "price" choosed to be the label as the objective of this project is to predict the diamonds' price. After drop the "price" and the "id" column from the dataframe, the rest of columns were used as features.
+Column "price" choosed to be the label as the objective of this project is to predict the diamonds' price. Since the price is a set of continuous value, this type of problem this model trying to solve is a regression problem. After drop the "price" and the "id" column from the dataframe, the rest of columns were used as features.
 
 ## STEP 3: Train Test Split and Standardization
 In this step, the train and test data prepared using train_test_split method from sklearn.model_selection module. The standardization of data is done by using StandardScaler method from sklearn.preprocessing module.
